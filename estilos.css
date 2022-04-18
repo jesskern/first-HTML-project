@@ -1,0 +1,246 @@
+/* HEADER */
+
+header{
+    color: white;
+    font-style: bold;
+    background-color: rgb(243, 33, 103);
+    text-align: center;
+    font-size: 60px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header ul li{
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+}
+
+header a{
+    color: white;
+}
+
+
+/* TOPNAV*/
+body{
+    margin:10px;
+    font-family: 'Segoe UI';
+    color: darkslategrey;
+    margin-bottom: 2px;
+}
+
+.topnav{
+    
+    justify-content: space-between;
+    background-color: rgb(187, 127, 127);
+    color: white;
+    block-size: 30px;
+    text-align: center;    
+}
+
+.topnav a{
+    color:white;
+}
+
+
+.topnav ul li{
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 5%;
+    padding-block-start: px;
+} 
+
+
+.topnav a:hover{
+    background-color: aqua;
+}
+
+
+/* texto inicial */
+.container{
+    display:inline-flex;
+    margin-top: 15px;
+}
+
+.textinho{
+    margin-left: 1cm;
+    text-align: justify;
+    margin-right: 2cm;
+}
+
+.conteudo img{
+    display: block;
+    width: 220px;
+    margin-top: 2px;
+    margin-left: 1cm;
+   
+}
+
+.details {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details caption{
+    font-size: 16px;
+    
+}
+
+.details td{
+    font-size: 15px;
+    border: 1px solid darkgrey;
+
+}
+
+
+h1{
+    font-style: bold;
+    font-family:Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    color: rgb(243, 33, 103);
+}
+
+h2{
+    font-style: italic;
+    margin:center;
+    text-align: center;
+}
+
+ol li{
+padding-left: 15px;
+} 
+
+/*Tabelas */
+
+.ce{
+    background-color: grey;
+    color: rgb(243, 125, 145);
+    padding: 8px;
+}
+
+.cd{
+    background-color: white;
+    color: rgb(243, 125, 145);
+    padding: 8px;
+
+}
+
+#books{
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;
+    text-align: center;
+    color: white;
+
+}
+
+#books ul li{
+    display: inline;    
+    margin-left: 25px;
+    text-align: center;
+    background-color: rgba(174, 37, 179, 0.671);
+}
+
+h3{
+    color: rgba(174, 37, 179, 0.671);
+    background-color: white;
+    font-style: bold;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+
+caption{
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+
+/*Primeiro livro */
+.livros{
+    background-image: url(/white.jpeg);
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;   
+ 
+    
+}
+
+.livros a{
+    align-items: center;
+    justify-items: center;
+    color: rgb(243, 69, 127);
+    background-color: whitesmoke;
+    margin-left: 25px;
+
+}
+
+.livros img{
+    width: 200px;
+    margin-right: 15px;
+}
+
+.livros p{
+    margin-left: 1cm;
+    text-align: justify;
+    background-color: whitesmoke;
+}
+
+
+#shipping{
+    width: 80px;
+
+    
+}
+
+.compreaqui{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.livros h1{
+padding-top: 20px;
+
+}
+
+p{
+    margin-left: 1cm;
+    text-align: justify;
+    margin-right: 2cm;
+
+}
+
+/*LINHA DIVISÓRIA*/
+
+.linha1{
+    background-color: rgba(223, 85, 103, 0.849);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 35px;
+}
+
+
+
+/* RODAPÉ*/
+
+.rodape{
+    background-color: rgba(167, 8, 29, 0.849);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 35px;
+}
